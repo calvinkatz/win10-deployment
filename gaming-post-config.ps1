@@ -55,6 +55,7 @@ $web_items = @{
 'bnet.exe' = 'https://www.battle.net/download/getInstallerForGame?os=win&locale=enUS&version=LIVE&gameProgram=BATTLENET_APP';
 'amd.exe' = 'https://www2.ati.com/drivers/amd_chipset_drivers_18.10_1018.exe';
 'intel.exe' = 'https://downloadmirror.intel.com/25016/eng/PROWinx64.exe';
+'lasso.exe' = 'https://dl.bitsum.com/files/processlassosetup64.exe';
 }
 foreach($item in $web_items.GetEnumerator()) {
     $outfile = "$download_dir\" + $item.key
